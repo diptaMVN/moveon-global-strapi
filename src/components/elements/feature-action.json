@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_elements_feature_actions",
+  "info": {
+    "displayName": "Feature Action",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ButtonName": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

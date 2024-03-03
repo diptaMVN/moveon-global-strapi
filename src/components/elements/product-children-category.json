@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_product_children_categories",
+  "info": {
+    "displayName": "productChildrenCategory"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "object": {
+      "type": "string"
+    }
+  }
+}

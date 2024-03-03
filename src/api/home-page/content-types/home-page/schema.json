@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SingleSection": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.product-row",
+        "blocks.feature-image-row",
+        "section.notice-bar",
+        "blocks.hero-row",
+        "blocks.feature-action-row"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_feature_action_rows",
+  "info": {
+    "displayName": "Feature Action Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-action"
+    },
+    "object": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "numberOfItems": {
+      "type": "string"
+    }
+  }
+}

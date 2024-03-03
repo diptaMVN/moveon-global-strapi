@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_req_for_registrations",
+  "info": {
+    "displayName": "Req For Registration"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    }
+  }
+}

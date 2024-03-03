@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_hero_rows",
+  "info": {
+    "displayName": "Hero Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "object": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.product-category"
+    },
+    "IconBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.hero-link-box"
+    },
+    "request": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.req-for-registration"
+    },
+    "shipmentRate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.shipment-rate"
+    }
+  }
+}

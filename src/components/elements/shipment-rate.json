@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_shipment_rates",
+  "info": {
+    "displayName": "Shipment Rate"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    }
+  }
+}

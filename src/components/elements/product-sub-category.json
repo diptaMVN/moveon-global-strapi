@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_product_sub_categories",
+  "info": {
+    "displayName": "ProductSubCategory"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.product-children-category"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "object": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_notice_bars",
+  "info": {
+    "displayName": "Notice Bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "object": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "bgColor": {
+      "type": "string"
+    }
+  }
+}

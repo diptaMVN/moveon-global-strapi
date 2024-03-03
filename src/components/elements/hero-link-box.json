@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_hero_link_boxes",
+  "info": {
+    "displayName": "Hero Link Box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "object": {
+      "type": "string"
+    }
+  }
+}

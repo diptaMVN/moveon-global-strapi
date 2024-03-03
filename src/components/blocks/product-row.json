@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_product_rows",
+  "info": {
+    "displayName": "Product Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "numberOfItems": {
+      "type": "string"
+    },
+    "showSlider": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "object": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

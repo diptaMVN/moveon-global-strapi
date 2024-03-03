@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_feature_image_rows",
+  "info": {
+    "displayName": "Feature Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-image"
+    },
+    "showSlider": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "object": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}
